@@ -1,3 +1,3 @@
-valor_exemplo = 12.8736498
+minha_string = "Aprender Python é top!"
 
-print(round(valor_exemplo, 2))
+print(minha_string[2:20])

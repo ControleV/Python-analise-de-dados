@@ -98,7 +98,7 @@ Exemplo de uma string com um número inteiro:
     data05 = list(['2', 'dois'])
     data06 = tuple(('2', 'dois'))
     data07 = range(2)
-    data08 = dict(nome = 'Odenir', idade = 2)
+    data08 = dict{nome = 'Odenir', idade = 2}
     data09 = set(('A', 'B', 'C'))
     data10 = frozenset(('A', 'B', 'C'))
     data11 = bool(5)
@@ -131,6 +131,87 @@ Quando trabalhamos com números flutuantes, podemos arredondar e/ou definir o n�
 8- COMANDO LEN
 
 A função len() retorna a quantidade de elementos de qualquer lista em Python, por exemplo:
+
+    lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+    dicionario = {
+        "Nome" : "Victor",
+        "Idade" : 22
+        }
+
+    tupla = (1, 2, 3)
+
+    string = "Olá Mundão!"
+
+    len(Lista)
+    len(dicionario)
+    len(tupla)
+    len(string)
+
+    Output:
+    10 #retornou a quantidade de elementos dentro da lista.
+    2 #retornou a quantidade de index dentro do dicionário.
+    3 #retornou a quantidade de elementos dentro da tupla.
+    11 #retornou a quantidade de caracteres da string.
+
+
+9- FATIAMENTO DE STRINGS
+
+Strings são listas de bytes representando caracteres.
+Podemos acessar suas posições usando [] (colchetes), por exemplo:
+
+    string[posição inicial, posição final]
+
+Para retornarmos um caractere específico de uma string, podemos usar o seguinte exemplo:
+
+    minha_string = "Aprender Python é top!"
+
+    print(minha_string[0])
+
+    Output:
+    'A'
+
+Para retornarmos um caractere específico de uma string, porém, de trás pra frente, utilizamos números negativos, como por exemplo:
+
+    minha_string = "Aprender Python é top!"
+
+    print(minha_string[-1])
+
+    Output:
+    '!'
+
+Para retornarmos uma cadeia de caracteres a partir de um index expecífico, utilizamos por exemplo:
+
+    minha_string = "Aprender Python é top!"
+
+    print(minha_string[5:])
+
+    Output:
+    'der Python é top!'
+
+Com número negativo:
+
+    minha_string = "Aprender Python é top!"
+
+    print(minha_string[-5:])
+
+    Output:
+    ' top!'
+
+Para retornarmos uma cadeia de caracteres no meio de uma string, utilizamos por exemplo:
+
+    minha_string = "Aprender Python é top!"
+
+    print(minha_string[2:20])
+
+    Output:
+    'render Python é to'
+
+
+10- MANIPULAÇÃO DE STRINGS
+
+
+
 
 
 

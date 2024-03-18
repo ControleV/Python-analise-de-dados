@@ -19,35 +19,35 @@ Para escrever um texto já com as quebras de linhas e tamanhos corretos, utiliza
 
 Para fazermos nosso clássico "Olá Mundo!", podemos utilizar o seguinte comando:
 
-print("Olá Mundo!")
+    print("Olá Mundo!")
 
 
 2- OPERADORES MATEMÁTICOS EM PYTHON
 
-Soma ---------------------------- + --------------------------- 2 + 2
-Subtração ----------------------- - --------------------------- 2 - 2
-Multiplicação ------------------- * --------------------------- 2 * 2
-Divisão ------------------------- / --------------------------- 2 / 2
-Exponenciação ------------------- ** -------------------------- 2 ** 2
-Resto da divisão ---------------- % --------------------------- 2 % 2
-Divisão de chão ----------------- // -------------------------- 2 // 2
-Priorização --------------------- () -------------------------- (2 + 2) * 2
+    Soma ---------------------------- + --------------------------- 2 + 2
+    Subtração ----------------------- - --------------------------- 2 - 2
+    Multiplicação ------------------- * --------------------------- 2 * 2
+    Divisão ------------------------- / --------------------------- 2 / 2
+    Exponenciação ------------------- ** -------------------------- 2 ** 2
+    Resto da divisão ---------------- % --------------------------- 2 % 2
+    Divisão de chão ----------------- // -------------------------- 2 // 2
+    Priorização --------------------- () -------------------------- (2 + 2) * 2
 
 
 3- VARIÁVEIS INICIAIS
 
-str ----------------------------- texto ----------------------- "dois"
-int ----------------------------- número inteiro -------------- 2
-float --------------------------- número quebrado ------------- 2.22
-bool ---------------------------- verdadeiro ou falso --------- True
+    str ----------------------------- texto ----------------------- "dois"
+    int ----------------------------- número inteiro -------------- 2
+    float --------------------------- número quebrado ------------- 2.22
+    bool ---------------------------- verdadeiro ou falso --------- True
 
 4- TIPOS DE DADOS
 
-listas -------------------------- [] -------------------------- [2, 2]
-Tuplas -------------------------- () -------------------------- (2, 2)
-Dicionários --------------------- {} -------------------------- {
-    "Index" : 2
-}
+    listas -------------------------- [] -------------------------- [2, 2]
+    Tuplas -------------------------- () -------------------------- (2, 2)
+    Dicionários --------------------- {} -------------------------- {
+        "Index" : 2
+    }
 
 Listas podem armazenar valores de vários tipos na mesma instância.
 Tuplas são imutáveis.
@@ -91,33 +91,46 @@ Exemplo de uma string com um número inteiro:
 
 6- TIPOS DE INFORMAÇÕES
 
-data01 = str("2")
-data02 = int(2)
-data03 = float(2.22)
-data04 = complex(1j)
-data05 = list(['2', 'dois'])
-data06 = tuple(('2', 'dois'))
-data07 = range(2)
-data08 = dict(nome = 'Odenir', idade = 2)
-data09 = set(('A', 'B', 'C'))
-data10 = frozenset(('A', 'B', 'C'))
-data11 = bool(5)
-data12 = bytes(5)
-data13 = bytearray(5)
-data14 = memoryview(bytes(5))
-data15 = datetime.today().date()
+    data01 = str("2")
+    data02 = int(2)
+    data03 = float(2.22)
+    data04 = complex(1j)
+    data05 = list(['2', 'dois'])
+    data06 = tuple(('2', 'dois'))
+    data07 = range(2)
+    data08 = dict(nome = 'Odenir', idade = 2)
+    data09 = set(('A', 'B', 'C'))
+    data10 = frozenset(('A', 'B', 'C'))
+    data11 = bool(5)
+    data12 = bytes(5)
+    data13 = bytearray(5)
+    data14 = memoryview(bytes(5))
+    data15 = datetime.today().date()
 
 Para descobrir o tipo de alguma informação, usamos:
 
     type(data01)
 
-Output: str
+    Output:
+    str
 
 
+7- COMANDO ROUND
+
+Quando trabalhamos com números flutuantes, podemos arredondar e/ou definir o número de casas decimais utilizando por exemplo:
+
+    valor_exemplo = 12.8736498
+    print(round(valor_exemplo, 2))
+    print(round(valor_exemplo))
+
+    Output:
+    12.87
+    13
 
 
+8- COMANDO LEN
 
-
+A função len() retorna a quantidade de elementos de qualquer lista em Python, por exemplo:
 
 
 

@@ -1,3 +1,4 @@
-minha_string = "Aprender Python é top!"
+string = "4545 dfgd"
+string = string.split('d')
 
-print(minha_string[2:20])
+print(type(string))

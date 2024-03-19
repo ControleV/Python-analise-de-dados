@@ -210,6 +210,48 @@ Para retornarmos uma cadeia de caracteres no meio de uma string, utilizamos por 
 
 10- MANIPULAÇÃO DE STRINGS
 
+    string = "Olá Mundo!"
+
+    string.replace('Olá', 'Salve') #substitui o texto sugerido por um novo.
+    string.startswith('Olá') #retorna verdadeiro caso a string comece com o/os caracteres sugeridos.
+    string.endswith('Mundo!') #retorna verdadeiro caso a string termine com o/os caracteres sugeridos.
+    string.count('o') #Conta quantos caracteres ou cadeia de caracteres sugeridos existem dentro da string.
+    string.capitalize() #Deixa a string com o primeiro caractere maiúsculo.
+    string.isdigit() #Retorna verdadeiro se a string possuir apenas números.
+    string.isalnum() #Retorna verdadeiro se a string for alfanumérica | strings alfanuméricas podem possuir apenas letras e números.
+    string.upper() #Retorna a string completamente em caixa alta.
+    string.lower() #Retorna a string completamente em caixa baixa.
+    string.find() #Retorna a posição em que o primeiro caractere da cadeia de caracteres sugeridos está.
+    string.strip() #Remove os espaços no começo e no final da cadeia de caracteres.
+    string.split() #Retorna a cadeia de caracteres em forma de lista, sendo sua divisão feita por espaços, você pode definir outro caractere como o responsável pela divisão.
+
+
+11- COMANDO INPUT
+
+Este comando permite que o usuário envie respostas ao prompt, que poderão ser manipuladas posteriormente.
+
+    nome = input("Qual é o seu nome? ")
+    idade = input("Qual a sua idade? ")
+
+
+12- OPERADORES DE COMPARAÇÃO
+
+São usados para comparar dois valores.
+
+    == #Igual a
+    != #Diferente de
+    > #maior que
+    < #menor que
+    >= #maior ou igual a
+    <= #menor ou igual que
+
+
+13- OPERADORES LÓGICOS
+
+    and
+    or
+    not
+
 
 
 

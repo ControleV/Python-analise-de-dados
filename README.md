@@ -248,13 +248,46 @@ São usados para comparar dois valores.
 
 13- OPERADORES LÓGICOS
 
-    and
-    or
-    not
+and --------- Retorna verdadeiro se as duas declarações forem verdadeiras.
+or ---------- Retorna verdadeiro se alguma das declarações forem verdadeiras.
+not --------- Inverte o resultado, retorna False se o resultado for verdadeiro.
+
+    print(2 and 3 >= 1)
+    print(2 or 3 == 2)
+
+    lista = [0, 1, 3, 4, 5]
+
+    print(2 not in lista)
+
+    Output:
+    True
+
+14- OPERADORES DE IDENTIDADE
+
+is ---------- Retorna True se ambas as variáveis forem o mesmo objeto
+is not ------ Retorna True se ambas as variáveis não forem o mesmo objeto
+
+    string01 = 'Olá Mundão!'
+    string02 = 'Olá Mundão!'
+
+    type(String01) is type(string02)
+
+    Output:
+    True
 
 
+15- MANIPULANDO LISTAS
 
-
-
-
+    lista.append() --------- Para adicionar um item ao final da lista.
+    lista.len() ------------ Calcular o tamanho da lista.
+    [] --------------------- Acessar posições.
+    lista.del() ------------ Excluir um elemento.
+    lista.clear() ---------- Limpar a lista.
+    lista.insert() --------- Para inserir um item de lista em um índice especificado.
+    lista.extend() --------- Anexar elementos de outra lista à lista atual.
+    lista.remove() --------- Remove o item especificado.
+    lista.pop() ------------ Remove o índice especificado.
+    lista.sort() ----------- Ordenar os valores.
+    lista.copy()  ---------- Faz uma cópia da lista.
+    lista.index() ---------- Retorna o index do elemento da lista.
 

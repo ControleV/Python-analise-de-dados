@@ -1,4 +1,1 @@
-string = "4545 dfgd"
-string = string.split('d')
-
-print(type(string))
+print(2 is not 3)
